@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon-32x32.png">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" class="display" readonly>
+        <div class="grid_container">
+            <button class="btn" onclick="add_to_dispaly('1')">1 </button>
+            <button class="btn" onclick="add_to_dispaly('2')">2 </button>
+            <button class="btn" onclick="add_to_dispaly('3')">3 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('Math.sin(')">sin </button>
+            <button class="btn" onclick="add_to_dispaly('4')">4 </button>
+            <button class="btn" onclick="add_to_dispaly('5')">5 </button>
+            <button class="btn" onclick="add_to_dispaly('6')">6 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('Math.cos(')">cos </button>
+            <button class="btn" onclick="add_to_dispaly('7')">7 </button>
+            <button class="btn" onclick="add_to_dispaly('8')">8 </button>
+            <button class="btn" onclick="add_to_dispaly('9')">9 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('Math.tan(')">tan </button>
+            <button class="btn" onclick="add_to_dispaly('0')">0 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('+')">+ </button>
+            <button class="btn_operation" onclick="add_to_dispaly('-')">- </button>
+            <button class="btn_operation" onclick="calculate()">= </button>
+            <button class="btn_operation" onclick="add_to_dispaly('*')">* </button>
+            <button class="btn_operation" onclick="add_to_dispaly('/')">/ </button>
+            <button class="btn_operation" onclick="add_to_dispaly('(')">( </button>
+            <button class="btn_operation" onclick="add_to_dispaly(')')">) </button>
+            <button class="btn_operation" onclick="clear_display()">C </button>  
+            <button class="btn_operation" onclick="add_to_dispaly('**')"> ^</button>    
+            <button class="btn_operation" onclick="add_to_dispaly('.')"> .</button>
+            <button class="btn_operation" onclick="add_to_dispaly('Math.PI')">PI</button>    
+    
+
+        </div>
+    </div>
+
+    <div class="note">
+            to calculate the sin,cos and tan we need <br>
+            to switch to degrees <br>
+            degrees = radians * ( PI / 180 )
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
