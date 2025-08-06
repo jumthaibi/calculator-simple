@@ -11,30 +11,30 @@
     <div class="calculator">
         <input type="text" id="display" class="display" readonly>
         <div class="grid_container">
-            <button class="btn" onclick="add_to_dispaly('1')">1 </button>
-            <button class="btn" onclick="add_to_dispaly('2')">2 </button>
-            <button class="btn" onclick="add_to_dispaly('3')">3 </button>
-            <button class="btn_operation" onclick="add_to_dispaly('Math.sin(')">sin </button>
-            <button class="btn" onclick="add_to_dispaly('4')">4 </button>
-            <button class="btn" onclick="add_to_dispaly('5')">5 </button>
-            <button class="btn" onclick="add_to_dispaly('6')">6 </button>
-            <button class="btn_operation" onclick="add_to_dispaly('Math.cos(')">cos </button>
-            <button class="btn" onclick="add_to_dispaly('7')">7 </button>
-            <button class="btn" onclick="add_to_dispaly('8')">8 </button>
-            <button class="btn" onclick="add_to_dispaly('9')">9 </button>
-            <button class="btn_operation" onclick="add_to_dispaly('Math.tan(')">tan </button>
-            <button class="btn" onclick="add_to_dispaly('0')">0 </button>
-            <button class="btn_operation" onclick="add_to_dispaly('+')">+ </button>
-            <button class="btn_operation" onclick="add_to_dispaly('-')">- </button>
+            <button class="btn" onclick="add_to_dispaly('1'),add_to_value('1')">1 </button>
+            <button class="btn" onclick="add_to_dispaly('2'),add_to_value('2')">2 </button>
+            <button class="btn" onclick="add_to_dispaly('3'),add_to_value('3')">3 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('sin('),add_to_value('Math.sin(')">sin </button>
+            <button class="btn" onclick="add_to_dispaly('4'),add_to_value('4')">4 </button>
+            <button class="btn" onclick="add_to_dispaly('5'),add_to_value('5')">5 </button>
+            <button class="btn" onclick="add_to_dispaly('6'),add_to_value('6')">6 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('cos('),add_to_value('Math.cos(')">cos </button>
+            <button class="btn" onclick="add_to_dispaly('7'),add_to_value('7')">7 </button>
+            <button class="btn" onclick="add_to_dispaly('8'),add_to_value('8')">8 </button>
+            <button class="btn" onclick="add_to_dispaly('9'),add_to_value('9')">9 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('tan('),add_to_value('Math.tan(')">tan </button>
+            <button class="btn" onclick="add_to_dispaly('0'),add_to_value('0')">0 </button>
+            <button class="btn_operation" onclick="add_to_dispaly('+'),add_to_value('+')">+ </button>
+            <button class="btn_operation" onclick="add_to_dispaly('-'),add_to_value('-')">- </button>
             <button class="btn_operation" onclick="calculate()">= </button>
-            <button class="btn_operation" onclick="add_to_dispaly('*')">* </button>
-            <button class="btn_operation" onclick="add_to_dispaly('/')">/ </button>
-            <button class="btn_operation" onclick="add_to_dispaly('(')">( </button>
-            <button class="btn_operation" onclick="add_to_dispaly(')')">) </button>
-            <button class="btn_operation" onclick="clear_display()">C </button>  
-            <button class="btn_operation" onclick="add_to_dispaly('**')"> ^</button>    
-            <button class="btn_operation" onclick="add_to_dispaly('.')"> .</button>
-            <button class="btn_operation" onclick="add_to_dispaly('Math.PI')">PI</button>    
+            <button class="btn_operation" onclick="add_to_dispaly('*'),add_to_value('*')">* </button>
+            <button class="btn_operation" onclick="add_to_dispaly('/'),add_to_value('/')">/ </button>
+            <button class="btn_operation" onclick="add_to_dispaly('('),add_to_value('(')">( </button>
+            <button class="btn_operation" onclick="add_to_dispaly(')'),add_to_value(')')">) </button>
+            <button class="btn_operation" onclick="clear_val()">C </button>  
+            <button class="btn_operation" onclick="add_to_dispaly('^'),add_to_value('**')"> ^</button>    
+            <button class="btn_operation" onclick="add_to_dispaly('.'),add_to_value('.')"> .</button>
+            <button class="btn_operation" onclick="add_to_dispaly('PI'),add_to_value('Math.PI')">PI</button>    
     
 
         </div>
